@@ -55,27 +55,30 @@ main{
     word-break: keep-all;
     line-height: 2;
 }
+.m1{
+    width: 100%;
+    height: 100%;
+}
 .m1 .pos_img{
     position: absolute;
     right: 60px;
-    bottom: 100px;
-    width: 860px;
+    top: 100px;
+    width: 40%;
 }
 .m2 .head{
     background: url(../img/m2_t.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 100px 0;
 }
 .m2 .head p{
     width: 92%;
     margin: 0 auto;
-    padding: 100px 0;
     color: #FFF;
     font-size: 30px;
     font-weight: 600;
     word-break: keep-all;
-    white-space: pre-line;
     line-height: 1.5;
 }
 .m2_img{
@@ -167,6 +170,9 @@ main{
     font-weight: 600;
     vertical-align: middle;
 }
+.m4 table th p{
+    white-space: nowrap;
+}
 .m4 table th p:nth-child(1){
     margin-bottom: 12px;
 }
@@ -227,6 +233,7 @@ main{
 .m5 .sub_m>p{
     font-size: 24px;
     text-align: center;
+    word-break: keep-all;
 }
 .m5 .sub_m>p span{
     color: #2580ee;
@@ -302,4 +309,139 @@ main{
 }
 .m8 .text h6{
     margin-bottom: 40px;
+}
+.ta2{
+    display: none;
+}
+.m7 .ex{
+    margin: 0 auto 24px;
+}
+@media (max-width:1600px){
+    .m4 table td, .m4 table th{
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+}
+@media (max-width:1200px){
+    .m2 .head{
+        padding: 50px 0;
+    }
+    .m2 .head p{
+        font-size: 24px;
+    }
+    .m4 table thead{display: none;}
+    .m4 table tr{display: block;}
+    .m4 table tbody td{display: grid;grid-template-columns: 1fr 2fr;text-align: center;}
+    .m4 table tbody td::before{font-weight: 600;}
+    .m4 table tbody td:nth-of-type(1)::before{content: '년도';}
+    .m4 table tbody td:nth-of-type(2)::before{content: '급여이용자(명)';}
+    .m4 table tbody td:nth-of-type(3)::before{content: '요양보호사(명)';}
+    .m4 table tbody td:nth-of-type(4)::before{content: '재가급여비용(억원)';}
+    .m4 table tbody td:nth-of-type(5)::before{content: '방문요양 이용금액(억원)';}
+    .m4 table tbody td:nth-of-type(6)::before{content: '장기요양기관(개소)';}
+    .f_sb{
+        flex-wrap: wrap;
+    }
+    .m4 .f_sb p{
+        width: 48%;
+    }
+    .m4 .f_sb p:nth-child(2){
+        text-align: end;
+    }
+}
+@media (max-width:880px){
+    .container{
+        height: unset;
+    }
+    .pos_img{
+        display: none;
+    }
+    .text{
+        position: unset;
+        width: 86%;
+        margin: 0 auto;
+        padding: 24px 0;
+    }
+    .container .sub_h h3{
+        font-size: 24px;
+    }
+    .container .sub_h p{
+        font-size: 18px;
+    }
+    .m3 .sub_m p{
+        font-size: 18px;
+    }
+    .m3 .sub_m>ul{
+        flex-wrap: wrap;
+    }
+    .m3 .sub_m>ul>li:nth-child(1), .m3 .sub_m>ul>li:nth-child(3){
+        width: 60%;
+        margin: 0 auto;
+    }
+    .m3 .sub_m>ul>li:nth-child(2){
+        width: 60%;
+        margin: 24px auto;
+    }
+    .m5 .dep1 .flex{
+        flex-wrap: wrap;
+    }
+    .m5 .dep2 li{
+        width: 86%;
+        margin: 0 auto 24px;
+    }
+    .m5 .dep2 figcaption{
+        font-size: 16px;
+    }
+    .m6 .m6_2>table th:nth-child(1){
+        width: auto;
+    }
+    /* .m6 .m6_2>table .ar{display: none;}
+    .m7 .ar{display: none;}
+    .m6 .m6_2>table tbody{display: none;}
+    .m6 .m6_2>table tr{display: block;}
+    .m6 .m6_2>table thead th{display: flex;flex-wrap:wrap;text-align: center;justify-content: center;padding: 0;margin-bottom: 24px;}
+    .m6 .m6_2>table th::after{font-weight: 600;padding: 24px 0;font-size: 18px;}
+    .m6 .m6_2>table th:nth-of-type(1)::after{content: '요양보호사 건강 돋보기 앱 활성화';}
+    .m6 .m6_2>table th:nth-of-type(3)::after{content: '앱 클릭';}
+    .m6 .m6_2>table th:nth-of-type(5)::after{content: '어르신 얼굴인식';}
+    .m6 .m6_2>table th:nth-of-type(7)::after{content: '측정완료';}
+    .m6 .m6_2>table th:nth-of-type(9)::after{content: '측정결과';}
+    .m6 .m6_2>table th:nth-of-type(11)::after{content: '카카오 알림톡 및 지자체, 가족정보 공유';} */
+    .m6 .m6_2>p:nth-of-type(2){font-size: 24px;}
+    .ta1{display: none;}
+    .ta2{display: block;}
+    .m7 .ta2 td{font-size: 18px;}
+    .m4 .chart{
+        width: 100%;
+    }
+}
+@media (max-width:580px){
+    .m2 .head{
+        padding: 12px 0;
+    }
+    .m2 .head p{
+        font-size: 18px;
+    }
+    .ex{
+        font-size: 14px;
+    }
+    .container{
+        height: auto;
+    }
+    .text h1{
+        font-size: 18px;
+    }
+    .text p{
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .m8 .text h6{
+        font-size: 16px;
+    }
+    .m3 .sub_m>ul>li:nth-child(1), .m3 .sub_m>ul>li:nth-child(3){
+        width: 80%;
+    }
+    .m3 .sub_m>ul>li:nth-child(2){
+        width: 80%;
+    }
 }
