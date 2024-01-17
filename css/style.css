@@ -41,16 +41,16 @@ main{
     width: 50%;
 }
 .text h1{
-    font-size: 5rem;
+    font-size: 50px;
     font-weight: 800;
     word-break: keep-all;
 }
 .text h6{
-    font-size: 3rem;
+    font-size: 40px;
     white-space: nowrap;
 }
 .text p{
-    font-size: 2.5rem;
+    font-size: 24px;
     white-space: pre-line;
     word-break: keep-all;
     line-height: 2;
@@ -70,18 +70,21 @@ main{
 .m2 .head p{
     width: 92%;
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 100px 0;
     color: #FFF;
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: 600;
     word-break: keep-all;
     white-space: pre-line;
     line-height: 1.5;
 }
+.m2_img{
+    margin-bottom: 50px;
+}
 .ex{
     width: 92%;
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 18px;
     color: #666;
     word-break: keep-all;
 }
@@ -99,11 +102,11 @@ main{
     word-break: keep-all;
 }
 .container .sub_h h3{
-    font-size: 2.5rem;
+    font-size: 30px;
     font-weight: 600;
 }
 .container .sub_h p{
-    font-size: 1.8rem;
+    font-size: 24px;
     color: #333;
     margin-left: 100px;
 }
@@ -126,7 +129,8 @@ main{
 }
 .m3 .sub_m p{
     text-align: center;
-    font-size: 2rem;
+    font-size: 24px;
+    word-break: keep-all;
 }
 .m3 .sub_m p span{
     color: #807bc5;
@@ -138,6 +142,7 @@ main{
     margin-bottom: 24px;
     font-weight: bold;
 }
+
 .f_sb{
     display: flex;
     justify-content: space-between;
@@ -154,7 +159,7 @@ main{
 .m4 table td,.m4 table th{
     border: 1px solid #666;
     padding: 12px 24px;
-    font-size: 2rem;
+    font-size: 24px;
 }
 .m4 table th{
     background-color: #999;
@@ -172,11 +177,11 @@ main{
     text-align: center;
 }
 .m4 .f_sb{
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 600;
 }
 .m4 .chart{
-    width: 86%;
+    width: 70%;
     margin: 0 auto;
 }
 .m5 .dep1{
@@ -186,22 +191,16 @@ main{
     display: flex;
 }
 .m5 .dep1>li p{
-    font-size: 2rem;
+    font-size: 24px;
     margin-bottom: 24px;
-}
-.m5 .dep1 .flex>p:nth-child(1){
-    width: 25%;
-}
-.m5 .dep1 .flex>p:nth-child(2){
-    width: 75%;
 }
 .m5 .dep1>li p strong{
     font-weight: 900;
     color: #138f96;
-    font-size: 2.5rem;
+    font-size: 30px;
 }
 .m5 .dep1>li p span{
-    font-size: 2.5rem;
+    font-size: 30px;
     margin-left: 12px;
     margin-right: 36px;
     white-space: nowrap;
@@ -214,16 +213,16 @@ main{
     margin-bottom: 24px;
 }
 .m5 .dep2 figcaption{
-    font-size: 2rem;
+    font-size: 24px;
     word-break: keep-all;
     line-height: 1.3;
 }
 .m5 .dep2 figcaption>p{
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 30px;
 }
 .m5 .sub_m>p{
-    font-size: 2rem;
+    font-size: 24px;
     text-align: center;
 }
 .m5 .sub_m>p span{
@@ -234,7 +233,7 @@ main{
     margin-bottom: 36px;
 }
 .m6 .m6_2>p{
-    font-size: 2rem;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 36px;
 }
@@ -249,18 +248,18 @@ main{
     width: 15%;
 }
 .m6 .m6_2>table td{
-    font-size: 2rem;
+    font-size: 24px;
     text-align: center;
     padding: 24px 0;
     word-break: keep-all;
     vertical-align: middle;
 }
 .m6 .m6_2>ul p{
-    font-size: 1.5rem;
+    font-size: 18px;
     text-align: center;
 }
 .m6 .m6_2>p:nth-of-type(2){
-    font-size: 2.5rem;
+    font-size: 30px;
 }
 .m6 .m6_2>p span{
     color: #2580ee;
