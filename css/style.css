@@ -35,10 +35,10 @@ main{
 .text{
     position: absolute;
     z-index: 10;
-    left: 5%;
-    bottom: 17%;
+    left: 60px;
+    bottom: 200px;
     color: #FFF;
-    width: 50%;
+    width: 800px;
 }
 .text h1{
     font-size: 50px;
@@ -57,9 +57,9 @@ main{
 }
 .m1 .pos_img{
     position: absolute;
-    right: 5%;
-    bottom: 10%;
-    width: 40%;
+    right: 60px;
+    bottom: 100px;
+    width: 860px;
 }
 .m2 .head{
     background: url(../img/m2_t.jpg);
@@ -122,10 +122,10 @@ main{
     padding: 50px 0;
 }
 .m3 .sub_m>ul>li:nth-child(1),.m3 .sub_m>ul>li:nth-child(3){
-    width: 30%;
+    width: 28%;
 }
 .m3 .sub_m>ul>li:nth-child(2){
-    width: 33%;
+    width: 30%;
 }
 .m3 .sub_m p{
     text-align: center;
@@ -181,7 +181,7 @@ main{
     font-weight: 600;
 }
 .m4 .chart{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 .m5 .dep1{
@@ -189,6 +189,9 @@ main{
 }
 .m5 .dep1 .flex{
     display: flex;
+}
+.m5 .dep1>li p:first-child{
+    white-space: nowrap;
 }
 .m5 .dep1>li p{
     font-size: 24px;
@@ -271,12 +274,10 @@ main{
 }
 .m7 table th{
     padding: 24px;
-}
-.m7 table .img img{
-    height: 300px;
+    vertical-align: middle;
 }
 .m7 table td{
-    font-size: 1.5rem;
+    font-size: 18px;
     text-align: center;
     padding: 24px 0;
     word-break: keep-all;
