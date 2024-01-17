@@ -331,7 +331,7 @@ main{
     }
     .m4 table thead{display: none;}
     .m4 table tr{display: block;}
-    .m4 table tbody td{display: grid;grid-template-columns: 1fr 2fr;text-align: center;}
+    .m4 table tbody td{display: grid;grid-template-columns: 1fr 2fr;text-align: center;align-items: center;}
     .m4 table tbody td::before{font-weight: 600;}
     .m4 table tbody td:nth-of-type(1)::before{content: '년도';}
     .m4 table tbody td:nth-of-type(2)::before{content: '급여이용자(명)';}
@@ -414,13 +414,15 @@ main{
     .m4 .chart{
         width: 100%;
     }
+    
 }
 @media (max-width:580px){
     .m2 .head{
         padding: 12px 0;
     }
     .m2 .head p{
-        font-size: 18px;
+        font-size: 16px;
+        text-align: center;
     }
     .ex{
         font-size: 14px;
@@ -443,5 +445,62 @@ main{
     }
     .m3 .sub_m>ul>li:nth-child(2){
         width: 80%;
+    }
+    .container .sub_h{
+        flex-wrap: wrap;
+        padding: 24px 0;
+    }
+    .container .sub_h h3{
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .container .sub_h p{
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .container .sub_m{
+        padding: 24px 0;
+    }
+    .m4 table td, .m4 table th{
+        font-size: 14px;
+    }
+    .m4 .f_sb{
+        font-size: 14px;
+    }
+    .m5 .dep1>li p{
+        font-size: 14px;
+    }
+    .m5 .dep1>li p strong{
+        font-size: 18px;
+    }
+    .m5 .dep1>li p span{
+        font-size: 18px;
+    }
+    .m5 .dep1>li p{
+        margin-bottom: 12px;
+    }
+    .m5 .dep1{
+        margin-bottom: 24px;
+    }
+    .m5 .sub_m>p{
+        font-size: 16px;
+    }
+    .m6 .m6_2>p{
+        font-size: 16px;
+    }
+    .m6 .m6_2>table td{
+        font-size: 14px;
+    }
+    .m6 .m6_2>p:nth-of-type(2){
+        font-size: 16px;
+    }
+    .m6 .m6_2>p{
+        margin-bottom: 12px;
+    }
+    .m7 .ta2 td{
+        font-size: 14px;
+    }
+    .m7 table{
+        margin-bottom: 24px;
     }
 }
